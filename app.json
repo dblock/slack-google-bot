@@ -1,0 +1,6 @@
+{
+	"name": "Google bot for Slack",
+	"description": "Slack integration with Google, including custom site search.",
+	"respository": "https://github.com/dblock/slack-google-bot",
+	"keywords": ["slack", "integration", "google", "search"],
+}

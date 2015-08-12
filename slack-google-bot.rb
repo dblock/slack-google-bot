@@ -1,0 +1,5 @@
+require 'slack-ruby-bot'
+require 'slack-google-bot/version'
+require 'slack-google-bot/about'
+require 'slack-google-bot/commands'
+require 'slack-google-bot/app'
