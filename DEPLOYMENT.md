@@ -20,6 +20,10 @@ Set SLACK_API_TOKEN from the Bot integration settings on Slack.
 heroku config:add SLACK_API_TOKEN=...
 ```
 
+#### GOOGLE_CSE_ID
+
+Optional Google Custom Search ID from https://cse.google.com/cse. When set the custom search engine will be used instead of Google Web Search.
+
 #### GIPHY_API_KEY
 
 SlackGoogleBot replies with animated GIFs. While it's currently not necessary, you may need to set GIPHY_API_KEY in the future, see [github.com/Giphy/GiphyAPI](https://github.com/Giphy/GiphyAPI) for details.

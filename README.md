@@ -3,7 +3,9 @@ SlackGoogleBot
 
 [![Build Status](https://travis-ci.org/dblock/slack-google-bot.png)](https://travis-ci.org/dblock/slack-google-bot)
 
-Slack bot for Google, including CSE.
+A Slack bot for Google Search. Artsy uses this to search Artsy on Slack, using our [Google Custom Search Engine](https://google.com/cse).
+
+![](screenshots/artsy.gif)
 
 ## Installation
 
@@ -11,13 +13,17 @@ See [DEPLOYMENT](DEPLOYMENT.md).
 
 ## Commands
 
-### google hi
-
-Politely says 'hi' back.
-
 ### google help
 
 Get help.
+
+### google
+
+Tell me about this bot.
+
+### google [expression]
+
+Search for _expression_.
 
 ## Contributing
 
