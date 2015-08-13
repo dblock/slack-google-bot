@@ -13,10 +13,6 @@ See [DEPLOYMENT](DEPLOYMENT.md).
 
 ## Commands
 
-### google help
-
-Get help.
-
 ### google
 
 Tell me about this bot.
