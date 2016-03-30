@@ -6,7 +6,11 @@ module SlackGoogleBot
         query = { query: expression }
         query[:cx] = ENV['GOOGLE_CSE_ID'] if ENV['GOOGLE_CSE_ID']
         result = ::Google::Search::Web.new(query).first
-        message = result.title + "\n" + result.uri
+        if result.nil?
+          message = "No search results for `#{expression}`"
+        else
+          message = result.title + "\n" + result.uri
+        end
         send_message client, data.channel, message
       end
     end
