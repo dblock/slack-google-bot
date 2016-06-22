@@ -1,3 +1,5 @@
+require 'http'
+
 module SlackGoogleBot
   module Commands
     class Google < SlackRubyBot::Commands::Base
