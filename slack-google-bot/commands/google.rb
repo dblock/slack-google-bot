@@ -14,7 +14,7 @@ module SlackGoogleBot
         if result.nil?
           message = "No search results for `#{expression}`"
         else
-          message = result['title'] + "\n" + result['link'] + "\n" + "```" + result['snippet'] + "```"
+          message = result['title'] + "\n" + result['link']
         end
         send_message client, data.channel, message
       end
