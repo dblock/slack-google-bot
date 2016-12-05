@@ -4,7 +4,6 @@ gem 'slack-ruby-bot', '~> 0.4.1'
 gem 'puma'
 gem 'http'
 gem 'sinatra'
-gem 'google-search', '~> 1.0.3'
 
 group :development, :test do
   gem 'rake', '~> 10.4'
