@@ -2,6 +2,7 @@ source 'http://rubygems.org'
 
 gem 'slack-ruby-bot', '~> 0.4.1'
 gem 'puma'
+gem 'http'
 gem 'sinatra'
 gem 'google-search', '~> 1.0.3'
 
@@ -15,5 +16,5 @@ group :test do
   gem 'rspec'
   gem 'rack-test'
   gem 'vcr'
-  gem 'webmock'
+  gem 'webmock', require: 'webmock/rspec'
 end

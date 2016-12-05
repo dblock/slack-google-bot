@@ -20,6 +20,10 @@ Set SLACK_API_TOKEN from the Bot integration settings on Slack.
 heroku config:add SLACK_API_TOKEN=...
 ```
 
+#### GOOGLE_API_KEY
+
+A required API key from https://console.developers.google.com/apis. You must create a new API project for _Google Custom Search_ and add credentials.
+
 #### GOOGLE_CSE_ID
 
 Optional Google Custom Search ID from https://cse.google.com/cse. When set the custom search engine will be used instead of Google Web Search.
