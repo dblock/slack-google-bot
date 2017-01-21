@@ -17,7 +17,7 @@ module SlackGoogleBot
         else
           message = "No search results for `#{expression}`"
         end
-        send_message client, data.channel, message
+        client.say(text: message, channel: data.channel)
       end
     end
   end

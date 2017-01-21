@@ -4,7 +4,7 @@ module SlackGoogleBot
       match(/^(?<bot>\w*)$/)
 
       def self.call(client, data, _match)
-        send_message_with_gif client, data.channel, SlackGoogleBot::ABOUT, 'google'
+        client.say(text: SlackGoogleBot::ABOUT, channel: data.channel)
       end
     end
   end
