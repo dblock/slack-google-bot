@@ -1,6 +1,7 @@
 source 'http://rubygems.org'
 
-gem 'slack-ruby-bot', '~> 0.4.1'
+gem 'celluloid-io'
+gem 'slack-ruby-bot'
 gem 'puma'
 gem 'http'
 gem 'sinatra'
