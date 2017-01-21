@@ -26,7 +26,7 @@ A required API key from https://console.developers.google.com/apis. You must cre
 
 #### GOOGLE_CSE_ID
 
-Optional Google Custom Search ID from https://cse.google.com/cse. When set the custom search engine will be used instead of Google Web Search.
+Google Custom Search ID from https://cse.google.com/cse. When set the custom search engine will be used instead of Google Web Search.
 
 #### GIPHY_API_KEY
 
