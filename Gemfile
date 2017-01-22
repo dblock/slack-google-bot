@@ -1,9 +1,11 @@
 source 'http://rubygems.org'
 
-gem 'slack-ruby-bot', '~> 0.4.1'
+gem 'celluloid-io'
+gem 'slack-ruby-bot'
 gem 'puma'
 gem 'http'
 gem 'sinatra'
+gem 'faraday_middleware', '0.10.1'
 
 group :development, :test do
   gem 'rake', '~> 10.4'
