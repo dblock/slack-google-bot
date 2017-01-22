@@ -5,6 +5,7 @@ gem 'slack-ruby-bot'
 gem 'puma'
 gem 'http'
 gem 'sinatra'
+gem 'faraday_middleware', '0.10.1'
 
 group :development, :test do
   gem 'rake', '~> 10.4'

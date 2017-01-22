@@ -40,7 +40,7 @@ GEM
       unf (>= 0.0.5, < 1.0.0)
     faraday (0.11.0)
       multipart-post (>= 1.2, < 3)
-    faraday_middleware (0.11.0)
+    faraday_middleware (0.10.1)
       faraday (>= 0.7.4, < 1.0)
     foreman (0.83.0)
       thor (~> 0.19.1)
@@ -134,6 +134,7 @@ PLATFORMS
 
 DEPENDENCIES
   celluloid-io
+  faraday_middleware (= 0.10.1)
   foreman
   http
   puma
