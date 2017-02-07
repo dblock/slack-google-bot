@@ -13,7 +13,7 @@ module SlackGoogleBot
                                       })
         result = results['items'].first if results['items']
         if result
-          message = result['title'] + "\n" + result['link']
+          message = result['title'] + "\n" + result['link'] + "\n" = result['snippet']
         else
           message = "No search results for `#{expression}`"
         end
